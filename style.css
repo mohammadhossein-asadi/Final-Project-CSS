@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.account {
+  border: 2px black solid;
+  padding: 10px;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.account i {
+  margin-left: 10px;
+}
+.account span {
+  cursor: pointer;
+}
+
+.pages {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.pages i {
+  margin: 20px;
+}
+
+.pages i:hover {
+  color: cyan;
+  transform: scale(1.5);
+}
+@media only screen and (max-width: 750px) {
+  .navbar,
+  .pages,
+  .account {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
