@@ -13,7 +13,7 @@
   padding: 0;
 }
 .navbar {
-  height: 70px;
+  min-height: 70px;
   display: flex;
   align-items: center;
   font-size: 1.3rem;
@@ -25,6 +25,7 @@
   padding: 10px;
   margin-left: 20px;
   border-radius: 5px;
+  font-family: "b nazanin";
 }
 
 .account i {
@@ -55,11 +56,12 @@
   background-color: #626c72;
   /* flex-wrap: wrap; */
   color: white;
+  font-family: "b nazanin";
 }
 
 .info {
   width: 55%;
-  font-family: "b nazanin";
+
   /* word-break: break-all; */
   font-size: 1.2rem;
   margin-right: 50px;
@@ -67,7 +69,6 @@
 
 .social-media {
   width: 35%;
-  font-family: "b nazanin";
   margin-bottom: 100px;
 }
 .social-media i {
