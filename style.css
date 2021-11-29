@@ -54,10 +54,9 @@
   min-height: 320px;
   background-color: #626c72;
   /* flex-wrap: wrap; */
-}
-.foot p {
   color: white;
 }
+
 .info {
   width: 55%;
   font-family: "b nazanin";
@@ -65,16 +64,13 @@
   font-size: 1.2rem;
   margin-right: 50px;
 }
-.info h3 {
-  color: white;
-}
+
 .social-media {
   width: 35%;
   font-family: "b nazanin";
   margin-bottom: 100px;
 }
 .social-media i {
-  color: white;
   font-size: 2rem;
   margin-left: 80px;
   cursor: pointer;
@@ -83,14 +79,12 @@
   color: cyan;
 }
 .social-media h4 {
-  color: white;
-  font-size: 2rem;
+  font-size: 1.8rem;
   text-align: right;
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 .info h4 {
-  color: white;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-bottom: 20px;
 }
 @media only screen and (max-width: 750px) {
