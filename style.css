@@ -1,3 +1,13 @@
+@font-face {
+  font-family: "b nazanin";
+  src: url("?view"),
+    url("http://cdn.bayan.ir/blog/templates/shared/fonts/BNazanin.eot?view#iefix")
+      format("embedded-opentype"),
+    url("http://cdn.bayan.ir/blog/templates/shared/fonts/BNazanin.woff?view")
+      format("woff"),
+    url("http://cdn.bayan.ir/blog/templates/shared/fonts/BNazanin.ttf?view")
+      format("truetype");
+}
 * {
   margin: 0;
   padding: 0;
@@ -36,6 +46,53 @@
   color: cyan;
   transform: scale(1.5);
 }
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 320px;
+  background-color: #626c72;
+  /* flex-wrap: wrap; */
+}
+.foot p {
+  color: white;
+}
+.info {
+  width: 55%;
+  font-family: "b nazanin";
+  /* word-break: break-all; */
+  font-size: 1.2rem;
+  margin-right: 50px;
+}
+.info h3 {
+  color: white;
+}
+.social-media {
+  width: 35%;
+  font-family: "b nazanin";
+  margin-bottom: 100px;
+}
+.social-media i {
+  color: white;
+  font-size: 2rem;
+  margin-left: 80px;
+  cursor: pointer;
+}
+.social-media i:hover {
+  color: cyan;
+}
+.social-media h4 {
+  color: white;
+  font-size: 2rem;
+  text-align: right;
+  margin-bottom: 60px;
+}
+.info h4 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
 @media only screen and (max-width: 750px) {
   .navbar,
   .pages,
@@ -45,5 +102,16 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .social-media h4 {
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: center;
+    margin: auto;
+  }
+  .social-media i {
+    font-size: 1.2rem;
   }
 }
