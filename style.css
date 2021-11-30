@@ -89,6 +89,14 @@
   font-size: 1.8rem;
   margin-bottom: 20px;
 }
+
+.carousel-inner {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.carousel-inner img {
+  height: 500px;
+}
 @media only screen and (max-width: 750px) {
   .navbar,
   .pages,
