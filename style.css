@@ -108,28 +108,7 @@ nav {
   height: 600px;
   background-size: contain;
 }
-.container {
-  min-height: 100px;
-  display: flex;
-  min-width: 50%;
-  background-color: #626c72;
-  justify-content: center;
-  margin-bottom: 50px;
-}
-.iphone-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: center;
-  margin-top: 50px;
-}
-.iphone {
-  width: 250px;
-  height: 250px;
-  background-color: red;
-  margin: 10px;
-}
+
 @media only screen and (max-width: 750px) {
   .navbar,
   .pages,
