@@ -108,7 +108,28 @@ nav {
   height: 600px;
   background-size: contain;
 }
-
+.container {
+  margin-bottom: 20px;
+  text-align: right;
+}
+.text {
+  display: inline-block;
+  justify-content: flex-end;
+  font-family: "b nazanin";
+  font-size: 1.6rem;
+  border-bottom: 2px red solid;
+}
+.sec {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.items {
+  background-color: whitesmoke;
+  height: 300px;
+  width: 300px;
+  margin: 10px;
+}
 @media only screen and (max-width: 750px) {
   .navbar,
   .pages,
