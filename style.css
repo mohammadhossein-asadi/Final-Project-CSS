@@ -116,9 +116,6 @@ nav {
   justify-content: center;
   margin-bottom: 50px;
 }
-.container span{
-  align-content: flex-end;
-}
 .iphone-container {
   display: flex;
   justify-content: center;
@@ -128,10 +125,10 @@ nav {
   margin-top: 50px;
 }
 .iphone {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   background-color: red;
- margin: 10px;
+  margin: 10px;
 }
 @media only screen and (max-width: 750px) {
   .navbar,
