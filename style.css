@@ -13,7 +13,14 @@
   margin: 0;
   padding: 0;
 }
-.navbar {
+/* header {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  backdrop-filter: blur(12px);
+} */
+
+nav {
   min-height: 70px;
   display: flex;
   align-items: center;
@@ -89,13 +96,42 @@
   font-size: 1.8rem;
   margin-bottom: 20px;
 }
+.carousel-caption h5 {
+  font-size: 2rem;
+}
 
 .carousel-inner {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 .carousel-inner img {
-  height: 500px;
+  height: 600px;
+  background-size: contain;
+}
+.container {
+  min-height: 100px;
+  display: flex;
+  min-width: 50%;
+  background-color: #626c72;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.container span{
+  align-content: flex-end;
+}
+.iphone-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  margin-top: 50px;
+}
+.iphone {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+ margin: 10px;
 }
 @media only screen and (max-width: 750px) {
   .navbar,
