@@ -134,6 +134,7 @@ nav {
   box-shadow: 0px 0px 10px 0px rgb(32, 10, 10);
   transition-duration: 1.2s;
   border-radius: 3px;
+  cursor: pointer;
 }
 
 .checked {
@@ -172,6 +173,7 @@ nav {
   border-radius: 5px;
   transition: all 1.2s;
   float: left;
+  cursor: pointer;
 }
 .product-p {
   display: none;
