@@ -118,6 +118,8 @@ nav {
   font-family: "b nazanin";
   font-size: 1.6rem;
   border-bottom: 2px red solid;
+  margin-bottom: 10px;
+  margin-right: 12px;
 }
 .sec {
   width: 100%;
@@ -126,10 +128,83 @@ nav {
   justify-content: center;
 }
 .items {
-  background-color: whitesmoke;
-  height: 330px;
+  height: 350px;
   width: 300px;
-  margin: 10px;
+  margin: 12px;
+  box-shadow: 0px 0px 10px 0px rgb(32, 10, 10);
+  transition-duration: 1.2s;
+  border-radius: 3px;
+}
+
+.checked {
+  color: orange;
+}
+.star {
+  padding: 15px;
+  float: left;
+}
+.pish {
+  margin-top: 15px;
+  font-family: "b nazanin";
+  font-size: 1.3rem;
+  background-color: #fb5a39;
+  margin-left: 65px;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+.one {
+  background-image: url("https://janebi.com/janebi/9fd2/files/251665_260x.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.two {
+  background-image: url("https://janebi.com/janebi/9fd2/files/280618_260x.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.product-price {
+    background-color: green;
+    color: white;
+    margin-left: 0.4rem;
+    margin-right: 0.2rem;
+    padding: 8px;
+    border-radius: 5px;
+    transition: all 1.2s ;
+    float: left;
+}
+.product-p {
+  display: none;
+  transition: all 1s ;
+}
+.product-price:hover .product-p {
+  display: inline;
+  margin-left: -2rem;
+}
+.product-p:hover {
+  padding-left: 3rem;
+}
+
+.price{
+  padding-left: 10px;
+}
+.title {
+  display: inline-block;
+  padding-top: 210px;
+  padding-right: 30px;
+}
+.titlep{
+  padding-top: 210px;
+  padding-right: 30px;
+}
+.gheymat{
+  padding-top: 8px;
+  padding-right: 10px;
+   font-family: "b nazanin";
+   font-size: 1.4rem;
+}
+.items:hover {
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 750px) {
