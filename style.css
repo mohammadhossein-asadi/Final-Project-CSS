@@ -164,18 +164,18 @@ nav {
   background-repeat: no-repeat;
 }
 .product-price {
-    background-color: green;
-    color: white;
-    margin-left: 0.4rem;
-    margin-right: 0.2rem;
-    padding: 8px;
-    border-radius: 5px;
-    transition: all 1.2s ;
-    float: left;
+  background-color: green;
+  color: white;
+  margin-left: 0.4rem;
+  margin-right: 0.2rem;
+  padding: 8px;
+  border-radius: 5px;
+  transition: all 1.2s;
+  float: left;
 }
 .product-p {
   display: none;
-  transition: all 1s ;
+  transition: all 1s;
 }
 .product-price:hover .product-p {
   display: inline;
@@ -185,7 +185,7 @@ nav {
   padding-left: 3rem;
 }
 
-.price{
+.price {
   padding-left: 10px;
 }
 .title {
@@ -193,15 +193,15 @@ nav {
   padding-top: 210px;
   padding-right: 30px;
 }
-.titlep{
+.titlep {
   padding-top: 210px;
   padding-right: 30px;
 }
-.gheymat{
+.gheymat {
   padding-top: 8px;
   padding-right: 10px;
-   font-family: "b nazanin";
-   font-size: 1.4rem;
+  font-family: "b nazanin";
+  font-size: 1.4rem;
 }
 .items:hover {
   transform: scale(1.1);
