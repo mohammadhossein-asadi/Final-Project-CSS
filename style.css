@@ -155,12 +155,14 @@ nav {
   border-radius: 5px;
 }
 .one {
-  background-image: url("https://janebi.com/janebi/9fd2/files/251665_260x.jpg");
+  /* background-image: url("https://janebi.com/janebi/9fd2/files/251665_260x.jpg"); */
+  background-image: url(img/ipod.jpg);
   background-position: center;
   background-repeat: no-repeat;
 }
 .two {
-  background-image: url("https://janebi.com/janebi/9fd2/files/280618_260x.jpg");
+  /* background-image: url("https://janebi.com/janebi/9fd2/files/280618_260x.jpg"); */
+  background-image: url(img/headphone.jpg);
   background-position: center;
   background-repeat: no-repeat;
 }
