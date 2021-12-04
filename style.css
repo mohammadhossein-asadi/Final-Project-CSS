@@ -1,3 +1,4 @@
+/* font face b-nazanin */
 @font-face {
   font-family: "b nazanin";
   src: url("?view"),
@@ -19,7 +20,7 @@
   z-index: 1;
   backdrop-filter: blur(12px);
 } */
-
+/* navbar */
 nav {
   min-height: 70px;
   display: flex;
@@ -28,6 +29,7 @@ nav {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+/* login and signup */
 .account {
   border: 2px black solid;
   padding: 10px;
@@ -35,14 +37,14 @@ nav {
   border-radius: 5px;
   font-family: "b nazanin";
 }
-
+/* person icon */
 .account i {
   margin-left: 10px;
 }
 .account span {
   cursor: pointer;
 }
-
+/* social media icon */
 .pages {
   margin-right: 20px;
   cursor: pointer;
@@ -55,7 +57,7 @@ nav {
   color: cyan;
   transform: scale(1.5);
 }
-
+/* footer */
 .foot {
   display: flex;
   justify-content: space-between;
@@ -66,7 +68,7 @@ nav {
   color: white;
   font-family: "b nazanin";
 }
-
+/* site information */
 .info {
   width: 55%;
 
@@ -74,7 +76,7 @@ nav {
   font-size: 1.2rem;
   margin-right: 50px;
 }
-
+/* contact us icon */
 .social-media {
   width: 35%;
   margin-bottom: 100px;
@@ -96,23 +98,25 @@ nav {
   font-size: 1.8rem;
   margin-bottom: 20px;
 }
+/* carosel with three image of apple product */
 .carousel-caption h5 {
   font-size: 2rem;
 }
 
 .carousel-inner {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   margin-bottom: 20px;
 }
 .carousel-inner img {
   height: 600px;
   background-size: contain;
 }
-
+/* this is Container */
 .container {
   margin-bottom: 20px;
   text-align: right;
 }
+/* name of product category */
 .text {
   display: inline-block;
   justify-content: flex-end;
@@ -123,12 +127,14 @@ nav {
   margin-right: 12px;
   font-weight: 600;
 }
+/* handsfree section */
 .sec {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
+/* item of section */
 .items {
   height: 350px;
   width: 300px;
@@ -138,7 +144,7 @@ nav {
   border-radius: 3px;
   cursor: pointer;
 }
-
+/* start rating */
 .checked {
   color: orange;
 }
@@ -146,6 +152,7 @@ nav {
   padding: 15px;
   float: left;
 }
+/* offer */
 .pish {
   margin-top: 15px;
   font-family: "b nazanin";
@@ -156,18 +163,22 @@ nav {
   padding: 5px;
   border-radius: 5px;
 }
+/* items image one */
 .one {
   /* background-image: url("https://janebi.com/janebi/9fd2/files/251665_260x.jpg"); */
   background-image: url(img/ipod.jpg);
   background-position: center;
   background-repeat: no-repeat;
 }
+/* items image two */
+
 .two {
   /* background-image: url("https://janebi.com/janebi/9fd2/files/280618_260x.jpg"); */
   background-image: url(img/headphone.jpg);
   background-position: center;
   background-repeat: no-repeat;
 }
+/* product price */
 .product-price {
   background-color: green;
   color: white;
@@ -190,12 +201,13 @@ nav {
 .product-p:hover {
   padding-left: 3rem;
 }
-
+/* price of product */
 .price {
   font-family: "b nazanin";
   padding-left: 10px;
   padding-top: 5px;
 }
+/* product title */
 .title {
   display: inline-block;
   padding-top: 210px;
@@ -208,6 +220,7 @@ nav {
   padding-top: 210px;
   padding-right: 30px;
 }
+/* price */
 .gheymat {
   padding-top: 3px;
   padding-right: 10px;
@@ -220,6 +233,21 @@ nav {
 .items:hover {
   transform: scale(1.1);
 }
+/******************** Media query ********************/
+/* width => <1100 */
+@media only screen and (max-width: 1100px) {
+  .social-media h4 {
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: center;
+    margin: auto;
+  }
+  .social-media i {
+    font-size: 1.2rem;
+  }
+}
+
+/* width => <750 */
 
 @media only screen and (max-width: 750px) {
   .navbar,
@@ -232,17 +260,8 @@ nav {
     flex-wrap: wrap;
   }
 }
-@media only screen and (max-width: 1100px) {
-  .social-media h4 {
-    display: flex;
-    font-size: 1.3rem;
-    justify-content: center;
-    margin: auto;
-  }
-  .social-media i {
-    font-size: 1.2rem;
-  }
-}
+/* width => <520 */
+
 @media only screen and (max-width: 520px) {
   .items {
     margin-top: 44px;
@@ -262,5 +281,26 @@ nav {
   }
   .price {
     padding-top: 16px;
+  }
+}
+/* width => <450 */
+
+@media only screen and (max-width: 450px) {
+  .items {
+    margin-top: 44px;
+    height: 430px;
+    width: 390px;
+  }
+  .title span {
+    font-weight: 700;
+    font-size: 0.9rem;
+  }
+  .title {
+    padding-top: 258px;
+    padding-right: 74px;
+  }
+
+  .pish {
+    margin-left: 155px;
   }
 }
