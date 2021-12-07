@@ -14,9 +14,17 @@
   margin: 0;
   padding: 0;
 }
-/* header {
+/** header {
   position: sticky;
   top: 0;
+  z-index: 1;
+  backdrop-filter: blur(12px);
+} */
+/** just pages **/
+/* header .pages{
+  position: fixed;
+  top: 0;
+  right: 0;
   z-index: 1;
   backdrop-filter: blur(12px);
 } */
@@ -116,7 +124,9 @@ nav {
   margin-bottom: 20px;
   text-align: right;
 }
-/* name of product category */
+
+/** name of product category **/
+
 .text {
   display: inline-block;
   justify-content: flex-end;
